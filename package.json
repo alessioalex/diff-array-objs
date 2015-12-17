@@ -1,0 +1,27 @@
+{
+  "name": "diff-array-objs",
+  "description": "Diff two arrays of objects based on a specific property.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "alessioalex-standard": "*",
+    "husky": "0.10.x",
+    "tape": "4.2.x"
+  },
+  "scripts": {
+    "lint": "alessioalex-standard",
+    "test": "tape test.js",
+    "precommit": "npm run lint && npm test"
+  },
+  "license": "MIT",
+  "author": "Alexandru Vladutu (alexandru.vladutu@gmail.com)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alessioalex/diff-array-objs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alessioalex/diff-array-objs/issues"
+  },
+  "homepage": "https://github.com/alessioalex/diff-array-objs#readme"
+}
